@@ -77,6 +77,10 @@ public class PageRender<T> {
         this.paginas = paginas;
     }
 
+    public boolean isFirst(){
+        return page.isFirst();
+    }
+
     public boolean isLast(){
         return page.isLast(); //para indicar si es la anterior
     }
